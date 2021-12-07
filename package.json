@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "inquirer": "^8.2.0"
+  },
+  "devDependencies": {
+    "jest": "^27.4.3"
+  },
+  "name": "hw-8",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "test --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dhoneyman/TeamProfileGenerator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dhoneyman/TeamProfileGenerator/issues"
+  },
+  "homepage": "https://github.com/dhoneyman/TeamProfileGenerator#readme",
+  "description": ""
+}
