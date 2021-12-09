@@ -75,8 +75,6 @@ function generateEmployees() {
       }
 
       employees.push(newEmployee);
-      console.log(employees);
-      console.log(employees.length);
       
 
       if (data.addEmployee === true) {
