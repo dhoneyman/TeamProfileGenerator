@@ -82,6 +82,8 @@ function generateEmployees() {
       } else {
         writeToFile(employees);
       }
+
+      console.log(employees);
     });
 }
 function writeToFile(employees) {

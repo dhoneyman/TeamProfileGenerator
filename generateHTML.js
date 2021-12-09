@@ -5,7 +5,7 @@ function employeeCards(employees){
   let role = employee.getRole();
   console.log(employee.getRole())
   if (role === "Engineer") { cardStr += `
-<div class='col'>
+<div class='col mb-5'>
   <div class="card shadow-lg" style="width: 18rem;">
       <div class="card-body bg-info rounded">
           <h5 class="name">${employee.name}</h5>
@@ -15,14 +15,14 @@ function employeeCards(employees){
       <ul class="list-group list-group-flush">
           <li class="employee-id list-group-item">ID: ${employee.id}</li>
           <li class="email list-group-item">Email: <a href='mailto:${employee.email}'>${employee.email}</a></li>
-          <li class="github list-group-item">Github: <a href='${employee.github}'></a></li>
+          <li class="github list-group-item">GitHub: <a href='${employee.github}'>${gitHubUrl(employee.github)}</a></li>
       </ul>
   </div>
 </div>
     `;
 }
   if (role === "Manager") { cardStr += `
-<div class='col'>
+<div class='col mb-5'>
  <div class="card shadow-lg" style="width: 18rem;">
   <div class="card-body bg-info rounded">
     <h5 class="name">${employee.name}</h5>
@@ -39,7 +39,7 @@ function employeeCards(employees){
     `;
   }
   if (role === "Intern") { cardStr += `
-  <div class='col'>
+  <div class='col mb-5'>
     <div class="card shadow-lg" style="width: 18rem;">
       <div class="card-body bg-info rounded">
         <h5 class="name">${employee.name}</h5>
@@ -105,6 +105,10 @@ function generateHTML(employees) {
 </html>`
 
     )}
+
+    function gitHubUrl(input){
+      return input.slice(19);
+    }
 
 
 module.exports = generateHTML;
