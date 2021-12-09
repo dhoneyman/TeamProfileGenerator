@@ -24,6 +24,7 @@ NA
  * simply type 'node index.js' into the command line and run the program and follow the questions asked.
   
   ![screen shot of team members generator](./assets/images/ss3.png)
+  ![video link](https://drive.google.com/file/d/1-7spdoFmmJ9H72mcXdqmb9NCvPE_lkir/view?usp=sharing)
 
   
 ## License
