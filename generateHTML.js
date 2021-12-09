@@ -10,7 +10,7 @@ function employeeCards(employees){
       <div class="card-body bg-info rounded">
           <h5 class="name">${employee.name}</h5>
           <i class="fas fa-laptop-code"></i>
-          <h6 class="postition">Position</h6>
+          <h6 class="postition">Engineer</h6>
       </div>
       <ul class="list-group list-group-flush">
           <li class="employee-id list-group-item">ID: ${employee.id}</li>
@@ -26,7 +26,7 @@ function employeeCards(employees){
  <div class="card shadow-lg" style="width: 18rem;">
   <div class="card-body bg-info rounded">
     <h5 class="name">${employee.name}</h5>
-    <h6 class="postition">Position</h6>
+    <h6 class="postition">Manager</h6>
     <i class="fas fa-phone-volume"></i>
   </div>
    <ul class="list-group list-group-flush">
@@ -43,7 +43,7 @@ function employeeCards(employees){
     <div class="card shadow-lg" style="width: 18rem;">
       <div class="card-body bg-info rounded">
         <h5 class="name">${employee.name}</h5>
-        <h6 class="postition">Position</h6>
+        <h6 class="postition">Intern</h6>
         <i class="fas fa-user-graduate"></i>
       </div>
       <ul class="list-group list-group-flush">
